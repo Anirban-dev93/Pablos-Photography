@@ -1,0 +1,8 @@
+color Palate:
+f8efd4 background color
+d7385e deep pink
+132743 navy blue
+
+font-family:
+font-family: 'Merriweather', serif;
+font-family: 'Poppins', sans-serif;

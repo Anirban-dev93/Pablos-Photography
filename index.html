@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Poppins:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- Jquery scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="navbar row">
+                <div class="home col-lg-4 col-md-4 col-sm-4">
+                    <p>
+                        <a href="index.html">home</a>
+                    </p>
+                </div>
+                <div class="name col-lg-4 col-md-4 col-sm-4">
+                    <h1>PABLO</h1>
+                </div>
+                <div class="about col-lg-4 col-md-4 col-sm-4">
+                    <p>
+                        <a href="about.html">about</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="gallery-section">
+        <div class="inner-width">
+            <h2>My Gallery</h2>
+            <div class="border"></div>
+            <div class="gallery">
+                <a href="images/1.jpg" class="image">
+                    <img src="images/1.jpg" alt="">
+                </a>
+                <a href="images/2.jpg" class="image">
+                    <img src="images/2.jpg" alt="">
+                </a>
+                <a href="images/3.jpg" class="image">
+                    <img src="images/3.jpg" alt="">
+                </a>
+                <a href="images/4.jpg" class="image">
+                    <img src="images/4.jpg" alt="">
+                </a>
+                <a href="images/5.jpg" class="image">
+                    <img src="images/5.jpg" alt="">
+                </a>
+                <a href="images/6.jpg" class="image">
+                    <img src="images/6.jpg" alt="">
+                </a>
+                <a href="images/7.jpg" class="image">
+                    <img src="images/7.jpg" alt="">
+                </a>
+                <a href="images/8.jpg" class="image">
+                    <img src="images/8.jpg" alt="">
+                </a>
+                
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="socialIcons">
+            <a href="">
+                <img src="images/email.svg" alt="email icon">
+            </a>
+            <a href="">
+                <img src="images/instagram.svg" alt="instagram icon">
+            </a>
+            <a href="">
+                <img src="images/facebook.svg" alt="facebook icon">
+            </a>
+            <a href="">
+                <img src="images/twitter.svg" alt="twitter icon">
+            </a>
+        </div>
+    </footer>
+
+
+    <script>
+        $(".gallery").magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            gallery: {
+                enabled: true
+            }
+        });
+    </script>
+
+
+    
+    <!-- bootstrap scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

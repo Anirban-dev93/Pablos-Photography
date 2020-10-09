@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8efd4;
+    overflow-x: hidden;
+}
+
+/** header part styling **/
+header {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.name h1 {
+    text-align: center;
+    letter-spacing: .5rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.home {
+    text-align: center;
+}
+
+.home p a {
+    text-decoration: none;
+    color: #d7385e;
+}
+
+.about {
+    text-align: center;
+}
+
+.about p a {
+    text-decoration: none;
+    color: #d7385e;
+}
+
+/** main section styling on about page **/
+
+.mainSection {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.mainImage img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+.details h3 {
+    color: #d7385e;
+    margin-bottom: 2rem;
+}
+
+.details p {
+    font-family: 'Merriweather', serif;
+    text-align: justify;
+    padding: 0 3rem;
+}
+
+@media screen and (max-width: 960px) {
+    .details {
+        margin-top: 3rem;
+    }
+}
+
+/** footer section **/
+
+.socialIcons {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.socialIcons a img {
+    width: 2%;
+    margin-left: 1rem;
+}
